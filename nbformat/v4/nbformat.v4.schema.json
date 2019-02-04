@@ -103,7 +103,8 @@
             "oneOf": [
                 {"$ref": "#/definitions/raw_cell"},
                 {"$ref": "#/definitions/markdown_cell"},
-                {"$ref": "#/definitions/code_cell"}
+                {"$ref": "#/definitions/code_cell"},
+                {"$ref": "#/definitions/unrecognized_cell"}
             ]
         },
 
